@@ -1,0 +1,41 @@
+EX2
+
+Write an asynchronous method ReadFileAsync that reads the contents of a text file asynchronosuly
+and returns the content as a string, use await and Task.Run to read the file.
+
+Test the method by calling it from the Main method and displaying the file contents
+
+
+EX3
+1. create two asynchronous methods,
+GetDataFromServiceAAsync,
+GetDataFromServiceBAsync,
+each simulating data retrieval from different services with a delay of 1 second and 2 seconds
+rspectively.
+2. inthe Main method, call both methods concurrently using Task.WhenAll.
+Display the results when both tasks are completed
+
+
+
+
+
+Node Class:
+2 private properties:
+Value - int
+Next - Node
+
+4 methods:
+GetValue
+GetNext
+SetValue
+SetNext
+
+3 Constructors:
+Node()
+Node(value)
+Node(value, next)
+
+toString() - "Node value is: ??. has Next OR no Next"
+
+test all constructors and methods in the Main programm
+
